@@ -1,0 +1,102 @@
+15:04:48,794 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+15:04:48,962  INFO LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: hibernate-postgresql]
+15:04:49,037  INFO Version:44 - HHH000412: Hibernate ORM core version 6.6.5.Final
+15:04:49,088 DEBUG RegionFactoryInitiator:122 - Cannot default RegionFactory based on registered strategies as `[]` RegionFactory strategies were registered
+15:04:49,089  INFO RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+15:04:49,348  WARN pooling:86 - HHH10001002: Using built-in connection pool (not intended for production use)
+15:04:50,014  INFO pooling:157 - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/fastpet]
+	Database driver: org.postgresql.Driver
+	Database version: 16.8
+	Autocommit mode: false
+	Isolation level: undefined/unknown
+	Minimum pool size: 1
+	Maximum pool size: 20
+15:04:51,420  INFO JtaPlatformInitiator:59 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+15:04:51,443  INFO access:52 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@39266403] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+15:04:51,828 DEBUG Util:23 - -------- conectou banco fastpet
+15:04:51,863 DEBUG SQL:135 - insert into Tutor (nome,telefone,cpf) values (?,?,?)
+15:04:51,865 TRACE bind:24 - binding parameter (1:VARCHAR) <- [José]
+15:04:51,866 TRACE bind:24 - binding parameter (2:VARCHAR) <- [83990000001]
+15:04:51,866 TRACE bind:24 - binding parameter (3:VARCHAR) <- [11111111111]
+15:04:51,872 DEBUG SQL:135 - insert into Tutor (nome,telefone,cpf) values (?,?,?)
+15:04:51,872 TRACE bind:24 - binding parameter (1:VARCHAR) <- [Maria]
+15:04:51,872 TRACE bind:24 - binding parameter (2:VARCHAR) <- [83990000002]
+15:04:51,873 TRACE bind:24 - binding parameter (3:VARCHAR) <- [22222222222]
+15:04:51,874 DEBUG SQL:135 - insert into Tutor (nome,telefone,cpf) values (?,?,?)
+15:04:51,874 TRACE bind:24 - binding parameter (1:VARCHAR) <- [Pedro]
+15:04:51,874 TRACE bind:24 - binding parameter (2:VARCHAR) <- [83990000003]
+15:04:51,875 TRACE bind:24 - binding parameter (3:VARCHAR) <- [33333333333]
+15:04:51,876 DEBUG SQL:135 - insert into Pet (apelido,raca,tutor_cpf) values (?,?,?)
+15:04:51,877 TRACE bind:24 - binding parameter (1:VARCHAR) <- [Rex]
+15:04:51,877 TRACE bind:24 - binding parameter (2:VARCHAR) <- [Labrador]
+15:04:51,877 TRACE bind:24 - binding parameter (3:VARCHAR) <- [11111111111]
+15:04:51,903 DEBUG SQL:135 - insert into Servico (datahora,tipo) values (?,?)
+15:04:51,904 TRACE bind:24 - binding parameter (1:VARCHAR) <- [15/05/2025 08:00]
+15:04:51,904 TRACE bind:24 - binding parameter (2:VARCHAR) <- [banho]
+15:04:51,906 DEBUG SQL:135 - insert into Servico (datahora,tipo) values (?,?)
+15:04:51,907 TRACE bind:24 - binding parameter (1:VARCHAR) <- [15/05/2025 09:00]
+15:04:51,907 TRACE bind:24 - binding parameter (2:VARCHAR) <- [tosa]
+15:04:51,909 DEBUG SQL:135 - insert into Pet (apelido,raca,tutor_cpf) values (?,?,?)
+15:04:51,909 TRACE bind:24 - binding parameter (1:VARCHAR) <- [Mimi]
+15:04:51,910 TRACE bind:24 - binding parameter (2:VARCHAR) <- [Persa]
+15:04:51,910 TRACE bind:24 - binding parameter (3:VARCHAR) <- [22222222222]
+15:04:51,912 DEBUG SQL:135 - insert into Servico (datahora,tipo) values (?,?)
+15:04:51,912 TRACE bind:24 - binding parameter (1:VARCHAR) <- [14/05/2025 08:30]
+15:04:51,912 TRACE bind:24 - binding parameter (2:VARCHAR) <- [banho]
+15:04:51,914 DEBUG SQL:135 - insert into Servico (datahora,tipo) values (?,?)
+15:04:51,915 TRACE bind:24 - binding parameter (1:VARCHAR) <- [15/05/2025 10:00]
+15:04:51,915 TRACE bind:24 - binding parameter (2:VARCHAR) <- [vacina]
+15:04:51,917 DEBUG SQL:135 - insert into Pet (apelido,raca,tutor_cpf) values (?,?,?)
+15:04:51,917 TRACE bind:24 - binding parameter (1:VARCHAR) <- [Miau]
+15:04:51,917 TRACE bind:24 - binding parameter (2:VARCHAR) <- [Siames]
+15:04:51,918 TRACE bind:24 - binding parameter (3:VARCHAR) <- [33333333333]
+15:04:51,920 DEBUG SQL:135 - insert into Servico (datahora,tipo) values (?,?)
+15:04:51,920 TRACE bind:24 - binding parameter (1:VARCHAR) <- [15/05/2025 11:00]
+15:04:51,920 TRACE bind:24 - binding parameter (2:VARCHAR) <- [hospedagem]
+15:04:51,922 DEBUG SQL:135 - insert into Servico (datahora,tipo) values (?,?)
+15:04:51,922 TRACE bind:24 - binding parameter (1:VARCHAR) <- [15/05/2025 09:30]
+15:04:51,923 TRACE bind:24 - binding parameter (2:VARCHAR) <- [banho]
+15:04:51,924 DEBUG SQL:135 - insert into Pet (apelido,raca,tutor_cpf) values (?,?,?)
+15:04:51,925 TRACE bind:24 - binding parameter (1:VARCHAR) <- [Bolt]
+15:04:51,925 TRACE bind:24 - binding parameter (2:VARCHAR) <- [Golden]
+15:04:51,925 TRACE bind:24 - binding parameter (3:VARCHAR) <- [11111111111]
+15:04:51,927 DEBUG SQL:135 - insert into Servico (datahora,tipo) values (?,?)
+15:04:51,927 TRACE bind:24 - binding parameter (1:VARCHAR) <- [15/05/2025 08:00]
+15:04:51,928 TRACE bind:24 - binding parameter (2:VARCHAR) <- [consulta]
+15:04:51,929 DEBUG SQL:135 - insert into Pet (apelido,raca,tutor_cpf) values (?,?,?)
+15:04:51,930 TRACE bind:24 - binding parameter (1:VARCHAR) <- [Luna]
+15:04:51,930 TRACE bind:24 - binding parameter (2:VARCHAR) <- [Poodle]
+15:04:51,930 TRACE bind:24 - binding parameter (3:VARCHAR) <- [22222222222]
+15:04:51,932 DEBUG SQL:135 - insert into Servico (datahora,tipo) values (?,?)
+15:04:51,932 TRACE bind:24 - binding parameter (1:VARCHAR) <- [15/05/2025 09:30]
+15:04:51,933 TRACE bind:24 - binding parameter (2:VARCHAR) <- [banho]
+15:04:51,934 DEBUG SQL:135 - insert into Pet (apelido,raca,tutor_cpf) values (?,?,?)
+15:04:51,935 TRACE bind:24 - binding parameter (1:VARCHAR) <- [Thor]
+15:04:51,935 TRACE bind:24 - binding parameter (2:VARCHAR) <- [Labrador]
+15:04:51,935 TRACE bind:24 - binding parameter (3:VARCHAR) <- [11111111111]
+15:04:51,950 DEBUG SQL:135 - update Servico set pet_id=? where id=?
+15:04:51,950 TRACE bind:24 - binding parameter (1:INTEGER) <- [25]
+15:04:51,950 TRACE bind:24 - binding parameter (2:INTEGER) <- [34]
+15:04:51,952 DEBUG SQL:135 - update Servico set pet_id=? where id=?
+15:04:51,952 TRACE bind:24 - binding parameter (1:INTEGER) <- [25]
+15:04:51,952 TRACE bind:24 - binding parameter (2:INTEGER) <- [35]
+15:04:51,954 DEBUG SQL:135 - update Servico set pet_id=? where id=?
+15:04:51,954 TRACE bind:24 - binding parameter (1:INTEGER) <- [26]
+15:04:51,954 TRACE bind:24 - binding parameter (2:INTEGER) <- [36]
+15:04:51,955 DEBUG SQL:135 - update Servico set pet_id=? where id=?
+15:04:51,956 TRACE bind:24 - binding parameter (1:INTEGER) <- [26]
+15:04:51,956 TRACE bind:24 - binding parameter (2:INTEGER) <- [37]
+15:04:51,957 DEBUG SQL:135 - update Servico set pet_id=? where id=?
+15:04:51,957 TRACE bind:24 - binding parameter (1:INTEGER) <- [27]
+15:04:51,958 TRACE bind:24 - binding parameter (2:INTEGER) <- [38]
+15:04:51,959 DEBUG SQL:135 - update Servico set pet_id=? where id=?
+15:04:51,959 TRACE bind:24 - binding parameter (1:INTEGER) <- [27]
+15:04:51,959 TRACE bind:24 - binding parameter (2:INTEGER) <- [39]
+15:04:51,960 DEBUG SQL:135 - update Servico set pet_id=? where id=?
+15:04:51,961 TRACE bind:24 - binding parameter (1:INTEGER) <- [28]
+15:04:51,961 TRACE bind:24 - binding parameter (2:INTEGER) <- [40]
+15:04:51,962 DEBUG SQL:135 - update Servico set pet_id=? where id=?
+15:04:51,962 TRACE bind:24 - binding parameter (1:INTEGER) <- [29]
+15:04:51,962 TRACE bind:24 - binding parameter (2:INTEGER) <- [41]
+15:04:51,972 DEBUG Util:33 - -------- desconectou banco
